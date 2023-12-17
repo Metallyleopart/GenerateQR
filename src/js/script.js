@@ -33,19 +33,19 @@ function reload() {
 }
 
 // fungsi pemeriksa button
-// btn.addEventListener('click', () => {
-//   click_count++;
-//   generate();
-//   if (click_count >= max_click & text.value.length !== 0) {
-//     alert.classList.remove('hidden');
-//     setTimeout(() => {
-//       // sembunyikan alert setelah 2 detik
-//       alert.classList.add('hidden');
-//     }, 3000);
-//     // reset hitungan klik
-//     click_count = 0;
-//   }
-// });
+btn.addEventListener('click', () => {
+  // click_count++;
+  generate();
+  // if (click_count >= max_click & text.value.length !== 0) {
+  //   alert.classList.remove('hidden');
+  //   setTimeout(() => {
+  //     // sembunyikan alert setelah 2 detik
+  //     alert.classList.add('hidden');
+  //   }, 3000);
+  //   // reset hitungan klik
+  //   click_count = 0;
+  // }
+});
 
 btn.addEventListener('dblclick', () => {
   reload();
