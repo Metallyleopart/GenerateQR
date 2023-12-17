@@ -56,7 +56,6 @@ body {
 }
 
 #container .container_child .container_children #title {
-  color: var(--colorText);
   font-weight: 600;
   font-size: 15px;
 }
@@ -74,7 +73,7 @@ body {
 #container .container_child .container_children input {
   width: 100%;
   height: 50px;
-  border: 1px solid var(--bgColor);
+  border: 1px solid var(--colorText);
   outline: none;
   padding: 10px;
   margin: 10px 0px 20px;
