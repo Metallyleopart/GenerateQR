@@ -150,3 +150,9 @@ body {
 .err {
   animation: shake 0.1s linear 10;
 }
+
+@media screen and (max-width: 500px) {
+  #container {
+    min-width: 310px;
+  }
+}
