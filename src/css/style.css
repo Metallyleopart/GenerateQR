@@ -73,7 +73,7 @@ body {
 #container .container_child .container_children input {
   width: 100%;
   height: 50px;
-  border: 1px solid var(--colorText);
+  border: 1px solid #121212;
   outline: none;
   padding: 10px;
   margin: 10px 0px 20px;
