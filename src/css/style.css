@@ -56,6 +56,7 @@ body {
 }
 
 #container .container_child .container_children #title {
+  color: var(--colorText);
   font-weight: 600;
   font-size: 15px;
 }
